@@ -1,78 +1,78 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"indices": [],
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "Mom Idle",
-			"indices": []
+			"loop": false,
+			"name": "Yummi idle"
 		},
 		{
-			"loop": false,
-			"offsets": [
-				250,
-				-23
-			],
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Mom Left Pose",
-			"indices": []
-		},
-		{
-			"loop": false,
 			"offsets": [
 				10,
-				-60
+				7
 			],
-			"anim": "singRIGHT",
+			"indices": [],
 			"fps": 24,
-			"name": "Mom Pose Left",
-			"indices": []
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Yuumi Left"
 		},
 		{
+			"offsets": [
+				10,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
 			"loop": false,
+			"name": "Yuumi Right"
+		},
+		{
 			"offsets": [
 				20,
-				-160
+				-20
 			],
-			"anim": "singDOWN",
+			"indices": [],
 			"fps": 24,
-			"name": "MOM DOWN POSE",
-			"indices": []
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Yuumi Down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				14,
-				71
+				11
 			],
-			"anim": "singUP",
+			"indices": [],
 			"fps": 24,
-			"name": "Mom Up Pose",
-			"indices": []
+			"anim": "singUP",
+			"loop": false,
+			"name": "Yuumi Up"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/Mom_Assets",
+	"image": "characters/yuumi_sprite",
 	"position": [
 		0,
 		0
 	],
-	"healthicon": "mom",
+	"healthicon": "yuumi",
 	"flip_x": false,
 	"healthbar_colors": [
-		216,
-		85,
-		142
+		196,
+		40,
+		255
 	],
 	"camera_position": [
-		0,
-		0
+		350,
+		75
 	],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 0.65
 }
